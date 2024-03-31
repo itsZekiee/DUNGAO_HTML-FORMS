@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="assets/css/main_style.css">
+    <title>AN CREATIONS</title>
+</head>
+<body>
+    <!-- NAVIGATION SECTION -->
+    <header class="header">
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_items"><a href="#" class="nav_links">HOME</a></li>
+            <li class="nav_items"><a href="#" class="nav_links">FAQs</a></li>
+            <li class="nav_items"><a href="#" class="nav_links">PRODUCT</a></li>
+            <li class="nav_items"><a href="#" class="nav_links">ABOUT US</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>Ordering Form</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="size">Size:</label><br>
+            <select id="size" name="size" required>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">Extra Large</option>
+            </select><br>
+            <label for="color">Color:</label><br>
+            <select id="color" name="color" required>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+            </select><br>
+            <label for="payment">Payment Method:</label><br>
+            <select id="payment" name="payment" required>
+                <option value="gcash">GCash</option>
+                <option value="maya">Maya</option>
+                <option value="visa">VISA</option>
+                <option value="mastercard">MasterCard</option>
+            </select><br>
+            <input type="submit" value="Order">
+        </form>
+    </main>      
+</body>
+</html>
